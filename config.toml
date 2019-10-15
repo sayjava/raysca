@@ -1,4 +1,35 @@
 baseURL = "http://raysca.dev/"
 languageCode = "en-us"
-title = "Raysca"
-theme = "ananke"
+title = "Raysca Dev"
+theme = "hello-friend-ng"
+
+
+[params]
+ description = "Raysca Dev"
+ keywords = "Raymond Ottun, Developer"
+ contentTypeName = "exp"
+
+
+[author]
+  name = "Raymond Ottun"
+  homepage = "https://raysca.dev"
+  twitter = "https://twitter.com/say"
+
+
+[languages]
+  [languages.en]
+    title = "Raymond Ottun"
+    subtitle = "Full Stack Developer"
+    keywords = "javavscript, golang, kubernetes, docker, nodejs, react, vuejs, postgres"
+    copyright = ""
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "raysca"
+      logoHomeLink = "/"
+
+[menu]
+  [[menu.main]]
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects"

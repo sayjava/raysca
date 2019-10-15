@@ -1,0 +1,4 @@
+baseURL = "http://raysca.dev/"
+languageCode = "en-us"
+title = "Raysca"
+theme = "ananke"

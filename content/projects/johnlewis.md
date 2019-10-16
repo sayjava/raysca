@@ -1,14 +1,12 @@
 ---
 title: "John Lewis"
-date: 2019-10-15
+date: 2018-03-15
 draft: false
 ---
 
-John Lewis
+Tech Stack
 
-### What I learnt
-
-#### Tech
-- Kubernetes
-- Nodejs
+- Docker + Kubernetes 
+- Nodejs + React
 - Google Cloud
+- Gitlab CI

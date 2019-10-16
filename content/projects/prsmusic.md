@@ -1,7 +1,10 @@
 ---
-title: "PRS Music"
-date: 2018-10-15
+title: "Zone Digigtal (PRS Music)"
+date: 2017-06-15
 draft: false
 ---
 
-PRS Music
+Tech Stack
+
+- Nodejs + React (NextJS)
+- SASS

@@ -39,6 +39,11 @@ themeColor = "#252627"
     [[params.social]]
         name = "linkedin"
         url  = "https://www.linkedin.com/in/raysca"
+    
+
+    [[params.social]]
+        name = "medium"
+        url  = "https://medium.com/@sayjava"
 
 [author]
   name = "Raymond Ottun"

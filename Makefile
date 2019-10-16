@@ -11,4 +11,8 @@ start:
 
 .PHONY:build
 build:
-	docker run --rm -it -v $PWD:/src -u hugo jguyomard/hugo-builder hugo
+	hugo
+
+.PHONY: deploy
+deploy: build
+	firebase deploy

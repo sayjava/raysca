@@ -20,16 +20,26 @@ theme = "hello-friend-ng"
   [languages.en]
     title = "Raymond Ottun"
     subtitle = "Full Stack Developer"
+    homeSubtitle = "London based full stack developer"
     keywords = "javavscript, golang, kubernetes, docker, nodejs, react, vuejs, postgres"
-    copyright = ""
+    copyright = "Raycas Dev 2019"
     readOtherPosts = "Read other posts"
+    [social]
+        
+
+
 
     [languages.en.params.logo]
-      logoText = "raysca"
+      logoText = "$ raysca"
       logoHomeLink = "/"
 
 [menu]
   [[menu.main]]
+    identifier = "me"
+    name       = "Me"
+    url        = "/about"
+
+  [[menu.main]]
     identifier = "projects"
     name       = "Projects"
-    url        = "/projects"
+    url        = "/projects/index.html"

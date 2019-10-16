@@ -1,7 +1,7 @@
 ---
-title: "Full Stack"
+title: "A Full Stack Dev"
 date: 2019-10-15T05:59:52Z
-draft: true
+draft: false
 ---
 
-A Full Stack Developer
+In writing

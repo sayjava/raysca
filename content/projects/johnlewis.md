@@ -1,7 +1,14 @@
 ---
 title: "John Lewis"
-date: 2019-10-15T05:59:52Z
-draft: true
+date: 2019-10-15
+draft: false
 ---
 
 John Lewis
+
+### What I learnt
+
+#### Tech
+- Kubernetes
+- Nodejs
+- Google Cloud

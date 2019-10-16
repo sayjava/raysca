@@ -3,42 +3,50 @@ languageCode = "en-us"
 title = "Raysca Dev"
 theme = "hello-friend-ng"
 
+PygmentsCodeFences = true
+PygmentsStyle = "monokai"
+
+buildDrafts  = false
+buildFuture  = false
+buildExpored = false
+canonifyURLs = true
+
+defaultTheme = "dark"
+themeColor = "#252627"
 
 [params]
- description = "Raysca Dev"
- keywords = "Raymond Ottun, Developer"
- contentTypeName = "exp"
-
-
-[author]
-  name = "Raymond Ottun"
-  homepage = "https://raysca.dev"
-  twitter = "https://twitter.com/say"
-
-
-[languages]
-  [languages.en]
+    description = "Raysca Dev"
+    contentTypeName = "exp"
     title = "Raymond Ottun"
     subtitle = "Full Stack Developer"
     homeSubtitle = "London based full stack developer"
     keywords = "javavscript, golang, kubernetes, docker, nodejs, react, vuejs, postgres"
     copyright = "Raycas Dev 2019"
     readOtherPosts = "Read other posts"
-    [social]
-        
+    
+    [params.logo]
+        logoText = "$ raysca"
+        logoHomeLink = "/"
+    
+    [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/sayjava"
 
+    [[params.social]]
+        name = "github"
+        url  = "https://github.com/sayjava"
 
+    [[params.social]]
+        name = "linkedin"
+        url  = "https://www.linkedin.com/in/raysca"
 
-    [languages.en.params.logo]
-      logoText = "$ raysca"
-      logoHomeLink = "/"
+[author]
+  name = "Raymond Ottun"
+  homepage = "https://raysca.dev"
+  twitter = "https://twitter.com/sayjava"
+
 
 [menu]
-  [[menu.main]]
-    identifier = "me"
-    name       = "Me"
-    url        = "/about"
-
   [[menu.main]]
     identifier = "projects"
     name       = "Projects"

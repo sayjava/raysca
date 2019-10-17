@@ -3,3 +3,4 @@ resources/_gen
 **.DS_Store**
 public
 .firebase
+**node_modules**

@@ -1,0 +1,19 @@
+name: CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v1
+      	
+    - name: Setup Hugo
+      uses: peaceiris/actions-hugo@v2.2.2
+      with:
+      	hugo-version: 'lastest'
+     
+	- name: Build
+      run: hugo --gc --minify

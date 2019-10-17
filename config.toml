@@ -1,4 +1,4 @@
-baseURL = "http://raysca.dev/"
+baseURL = "https://raysca.dev/"
 languageCode = "en-us"
 title = "Raysca Dev"
 theme = "hello-friend-ng"
